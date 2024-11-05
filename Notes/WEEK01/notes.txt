@@ -1,0 +1,39 @@
+<html>
+    imperative sample
+    <body>
+        <div id="app"></div>
+        <script type="text/javascript"> const app = document.getElementById('app');
+            const header = document.createElement('h1');
+            const text = 'Develop. Preview. Ship';
+            const headerContent = document.createTextNode(text);
+            header.appendChild(headerContent);
+            app.appendChild(header);
+        </script>
+    </body>
+</html>
+
+
+
+function passing Title 
+
+function Header ({title}){
+    console.log(title)
+    return (<h1>{title}</h1>)
+}
+
+ 
+    function props
+function Header (props){
+    console.log(props)
+    return (<h1> Develop.Preview.Ship </h1>)
+}
+
+
+    Nesting title headers
+function HomePage(){
+    return <div>
+        {/* Nesting the Header component*/}
+        <Header title="React"/>
+        <Header title="New title"/>
+    </div>
+}

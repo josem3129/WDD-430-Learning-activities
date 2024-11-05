@@ -1,0 +1,10 @@
+import goes on top of file 
+import { useState } from 'react';
+
+initializing Next with terminal 
+npm install react@latest react-dom@latest next@latest
+
+Next, let's run your development server so you can see the changes in your new page while developing. Add a "next dev" script to your package.json file:
+"scripts": {
+    "dev": "next dev"
+  },
